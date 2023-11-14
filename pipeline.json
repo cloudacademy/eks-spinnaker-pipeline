@@ -50,7 +50,7 @@
       "namespace": "dev",
       "outputName": "web-echo",
       "overrides": {
-        "ingress.hosts[0].host": "dev.TOKEN_INGRESS_IP_ADDRESS.nip.io",
+        "ingress.hosts[0].host": "TOKEN_DEV_INGRESS_HOST",
         "ingress.hosts[0].paths[0].path": "/",
         "ingress.hosts[0].paths[0].pathType": "Prefix"
       },
@@ -130,7 +130,7 @@
       "namespace": "prod",
       "outputName": "web-echo",
       "overrides": {
-        "ingress.hosts[0].host": "prod.TOKEN_INGRESS_IP_ADDRESS.nip.io",
+        "ingress.hosts[0].host": "TOKEN_PROD_INGRESS_HOST",
         "ingress.hosts[0].paths[0].path": "/",
         "ingress.hosts[0].paths[0].pathType": "Prefix"
       },
