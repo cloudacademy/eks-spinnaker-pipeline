@@ -47,7 +47,7 @@
         }
       ],
       "name": "Bake (Manifest)-Dev",
-      "namespace": "web-echo-dev",
+      "namespace": "dev",
       "outputName": "web-echo",
       "overrides": {
         "ingress.hosts[0].host": "dev.TOKEN_INGRESS_IP_ADDRESS.nip.io",
@@ -127,7 +127,7 @@
         }
       ],
       "name": "Bake (Manifest)-Prod",
-      "namespace": "web-echo-prod",
+      "namespace": "prod",
       "outputName": "web-echo",
       "overrides": {
         "ingress.hosts[0].host": "prod.TOKEN_INGRESS_IP_ADDRESS.nip.io",
