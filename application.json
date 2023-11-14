@@ -1,0 +1,11 @@
+{
+  "name": "web-echo",
+  "cloudProviders": "kubernetes",
+  "description": "Web Echo Helm Chart Repo",
+  "email": "support@cloudacademy.com",
+  "instancePort": 80,
+  "repoType": "github",
+  "repoSlug": "cloudacademy",
+  "repoProjectKey": "web-echo-chart",
+  "user": "[anonymous]"
+}

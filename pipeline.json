@@ -1,11 +1,8 @@
 {
+  "name": "web-echo",
   "application": "web-echo",
-  "id": "f4b088a6-dc67-484b-b508-20be957c7459",
-  "index": 0,
   "keepWaitingPipelines": false,
-  "lastModifiedBy": "anonymous",
   "limitConcurrent": true,
-  "name": "Web-Echo",
   "schema": "1",
   "spelEvaluator": "v4",
   "stages": [
@@ -13,15 +10,13 @@
       "expectedArtifacts": [
         {
           "defaultArtifact": {
-            "customKind": true,
-            "id": "45019ec1-4748-47fe-89fd-1c26e9b98703"
+            "customKind": true
           },
           "displayName": "web-echo-dev",
           "id": "457ae078-732f-4009-b837-66087c71983b",
           "matchArtifact": {
             "artifactAccount": "embedded-artifact",
             "customKind": false,
-            "id": "f0938d82-8f04-4b38-9cc1-d460379d04a8",
             "name": "web-echo",
             "type": "embedded/base64"
           },
@@ -34,7 +29,6 @@
           "account": "cloudacademy",
           "artifact": {
             "artifactAccount": "cloudacademy",
-            "id": "5f1a5c35-9433-42f9-aefc-1ffa32038610",
             "name": "web-echo-app-0.1.2.tgz",
             "reference": "https://api.github.com/repos/cloudacademy/web-echo-chart/contents/web-echo-app-0.1.2.tgz",
             "type": "github/file",
@@ -45,7 +39,6 @@
           "account": "cloudacademy",
           "artifact": {
             "artifactAccount": "cloudacademy",
-            "id": "327f3055-e6f9-4554-af71-52cf4b950dce",
             "name": "values/dev.yaml",
             "reference": "https://api.github.com/repos/cloudacademy/web-echo-chart/contents/values/dev.yaml",
             "type": "github/file",
@@ -94,8 +87,7 @@
       "expectedArtifacts": [
         {
           "defaultArtifact": {
-            "customKind": true,
-            "id": "5214bea1-c9e1-4ad8-8bf4-95fef6544064"
+            "customKind": true
           },
           "displayName": "web-echo-prod",
           "id": "e73fa6f1-2f8e-4595-a8eb-357321b6715c",
@@ -183,6 +175,5 @@
       "type": "deployManifest"
     }
   ],
-  "triggers": [],
-  "updateTs": "1699554955000"
+  "triggers": []
 }
