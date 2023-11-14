@@ -23,7 +23,7 @@ jobs:
           
       - name: Build Artifact
         run: |
-          tar -czf release-${{ env.RELEASE_VERSION }}.tar.gz pipeline.json
+          tar -czf release-${{ env.RELEASE_VERSION }}.tar.gz pipeline.json application.json
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
