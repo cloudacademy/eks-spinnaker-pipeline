@@ -108,8 +108,8 @@
           "artifact": {
             "artifactAccount": "cloudacademy",
             "id": "3842b545-f7c7-49ce-a01d-d020ba856b7e",
-            "name": "web-echo-app-0.1.2.tgz",
-            "reference": "https://api.github.com/repos/cloudacademy/web-echo-chart/contents/web-echo-app-0.1.2.tgz",
+            "name": "web-echo-app-1.0.0.tgz",
+            "reference": "https://api.github.com/repos/cloudacademy/web-echo-chart/contents/web-echo-app-1.0.0.tgz",
             "type": "github/file",
             "version": "main"
           }
