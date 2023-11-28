@@ -2,7 +2,7 @@
   "name": "web-echo",
   "cloudProviders": "kubernetes",
   "description": "Web Echo Helm Chart Repo",
-  "email": "support@cloudacademy.com",
+  "email": "pipelines@cyberdynesystems.com",
   "instancePort": 80,
   "repoType": "github",
   "repoSlug": "cloudacademy",
